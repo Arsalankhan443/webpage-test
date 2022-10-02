@@ -137,12 +137,21 @@ body {
     max-width: 800px;
     flex-direction: row;
     flex-wrap: wrap;
+    align-items: unset;
   }
   .first-image {
     width: 30%;
   }
   .title-container {
     background-color: red;
-    width: 70%;
+    flex-basis: 50%;
+    flex-grow: 1;
   }
+
+
+
+
+
+
 }
+
