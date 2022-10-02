@@ -1,0 +1,147 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  width: 100%;
+  opacity: 1;
+}
+.header-container {
+  width: 100%;
+  height: 617px;
+  background-color: #001534;
+  display: flex;
+ 
+}
+.header {
+  margin-top: 20px;
+  width: 100%;
+  max-width: 335px;
+  display: flex;
+  flex-direction: column;
+ align-items: center;
+ margin: 20px auto 0px auto;
+ 
+}
+
+.first-image {
+  width: 100%;
+  max-width: 300px;
+
+  border-radius: 5px;
+  opacity: 1;
+}
+.name {
+  color: white;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  letter-spacing: 1px;
+  font-weight: bold;
+  font-size: 25px;
+  margin-top: 20px;
+}
+.seo {
+  margin-top: 10px;
+  color: #e0af2f;
+  font-size: 16px;
+  height: 23px;
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+  opacity: 90%;
+  letter-spacing: 1px;
+}
+.group-logo {
+  opacity: 50%;
+  text-align: center;
+  margin-top: 30px;
+  letter-spacing: 25px;
+}
+.logo-size {
+  height: 15px;
+}
+.btn-1 {
+  width: 100%;
+  margin-top: 40px;
+  max-width: 335px;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  background-color: #e0af2f;
+  border-color: #e0af2f;
+  border-radius: 6px;
+  font-size: 16px;
+  text-align: center;
+  font-weight: bolder;
+   border-style: none;
+}
+
+.overview-container {
+  padding: 20px;
+
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+.overview-section {
+  margin-top: 30px;
+  max-width: 335px;
+  font-size: 15px;
+  line-height: 20px;
+  font-family: "Poppins", sans-serif;
+  color: #001534;
+  justify-content: center;
+  align-content: center;
+}
+.tag {
+  margin-bottom: 20px;
+}
+.blog-pic {
+  margin-top: 20px;
+  width: 100%;
+}
+.shoping {
+  margin-top: 10px;
+  opacity: 50%;
+  font-size: 14px;
+}
+.tag-1 {
+  margin-top: -50px;
+}
+.read-word {
+  color: #e0af2f;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: "Poppins", sans-serif;
+  margin-top: 10px;
+}
+.fifty {
+  margin-top: -40px;
+}
+.tag-2 {
+  margin-top: 20px;
+}
+.btn-2 {
+  display: flex;
+  justify-content: center;
+  margin-top: 60px;
+}
+@media screen and (min-width: 720px) {
+ 
+  .header-container {
+    
+
+
+    
+   
+   
+  }
+ 
+ 
+  .header {
+    max-width: 800px;
+  }
+}
