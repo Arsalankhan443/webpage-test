@@ -30,6 +30,7 @@ body {
   border-radius: 5px;
   opacity: 1;
 }
+
 .name {
   color: white;
   text-align: center;
@@ -134,5 +135,14 @@ body {
 
   .header {
     max-width: 800px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .first-image {
+    width: 30%;
+  }
+  .title-container {
+    background-color: red;
+    width: 70%;
   }
 }
