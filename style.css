@@ -138,20 +138,20 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: unset;
+    
   }
   .first-image {
-    width: 30%;
+    width: 414px;
+    height: 518px;
   }
   .title-container {
     background-color: red;
     flex-basis: 50%;
     flex-grow: 1;
+    
   }
 
-
-
-
-
-
+  .btn-1 {
+    margin-top: 0%;
+  }
 }
-
